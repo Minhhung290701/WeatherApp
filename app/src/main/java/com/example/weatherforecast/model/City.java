@@ -1,8 +1,5 @@
 package com.example.weatherforecast.model;
 
-
-
-
 public class City {
     private String name;
     private String country;
@@ -15,7 +12,6 @@ public class City {
 
     @Override
     public String toString() {
-
         return String.format("%s, %s", this.name, this.country);
     }
 

@@ -1,7 +1,7 @@
 package com.example.weatherforecast.common;
 
-
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.location.Location;
 import android.text.Spannable;
 import android.text.style.ForegroundColorSpan;
@@ -14,6 +14,9 @@ import java.time.ZoneId;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 public class Common {
     public static final String API_KEY_ID = "725389ad4485ecfccfbe8c73913ff9dc";

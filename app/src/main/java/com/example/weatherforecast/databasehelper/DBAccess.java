@@ -74,6 +74,7 @@ public class DBAccess {
             coord = new Coord(cursor.getDouble(0), cursor.getDouble(1));
         return coord;
     }
+
     public ArrayList<Coord> getCoordFromSaveTable() {
         cursor = database.rawQuery("select * from save_favorite_city EXCEPT select * from save_favorite_city where id = 1", null);
         Coord coord;

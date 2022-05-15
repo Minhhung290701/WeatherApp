@@ -44,6 +44,7 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.squareup.picasso.Picasso;
 
 
@@ -60,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
     public static final int SEND_CODE = 1;
     public static final int RECEIVE_CODE = 2;
     private static final int REQUEST_CODE_LOCATION_PERMISSION = 1;
-    LinearLayout addCity, layoutList, layoutDefault;
+    LinearLayout layoutList, layoutDefault;
+    FloatingActionButton addCity;
     Toolbar toolbar;
     TextView tvCity, tvTemp, tvCityDefault, tvTempDefault;
     ImageView imgWeatherIcon, imgWeatherDefault;

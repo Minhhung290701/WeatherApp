@@ -15,8 +15,6 @@ import com.example.weatherforecast.common.Common;
 import com.example.weatherforecast.model.WeatherForecastResponse;
 import com.squareup.picasso.Picasso;
 
-
-
 public class  WeatherForecastAdapter extends RecyclerView.Adapter<WeatherForecastAdapter.MyViewHolder> {
 
     Context context;
