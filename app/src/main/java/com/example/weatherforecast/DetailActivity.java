@@ -85,7 +85,7 @@ public class DetailActivity extends AppCompatActivity {
         tvWindDir = findViewById(R.id.tv_wind_dir);
         tvWindSpd2 = findViewById(R.id.tv_wind_spd);
         tvWthInf = findViewById(R.id.tv_weather_current_info);
-        tvTempDay = findViewById(R.id.tv_day_temp);
+        tvTempDay= findViewById(R.id.tv_day_temp);
         tvTempNight = findViewById(R.id.tv_night_temp);
         listView.setEnabled(false);
     }
@@ -147,7 +147,6 @@ public class DetailActivity extends AppCompatActivity {
                     Picasso.get().load("http://openweathermap.org/img/wn/" +
                             weatherResponse.getCurrent().getWeather().get(0).getIcon() +
                             "@2x.png").into(imgView);
-
                 }
             }
 
