@@ -20,7 +20,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 public class Common {
     public static final String API_KEY_ID = "725389ad4485ecfccfbe8c73913ff9dc";
-    public static String latitude = "21.0245", longitude = "105.8412";
+    public static String latitude = "121.0245", longitude = "105.8412";
     public static Location current_location = null;
 
     public static String convertUnixToHour (int dt){

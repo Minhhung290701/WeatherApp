@@ -5,31 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/sky">
+    android:background="@drawable/corner"
+    >
 
     <LinearLayout
-        android:layout_width="375dp"
-        android:layout_height="186dp"
-        android:orientation="vertical">
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+         >
 
         <LinearLayout
-            android:layout_width="369dp"
-            android:layout_height="183dp"
-            android:orientation="horizontal">
+            android:layout_width="395dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/reloadwidget"
+                android:layout_width="32dp"
+                android:layout_height="36dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/reload"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <LinearLayout
                 android:layout_width="165dp"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
 
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/txt_city_widget"
                     android:layout_width="match_parent"
-                    android:layout_height="52dp"
+                    android:layout_height="69dp"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/black"
-                    android:textSize="30sp" />
+                    android:textSize="24dp" />
 
                 <TextView
                     android:id="@+id/tv_current_date_time_widget"
@@ -47,12 +56,26 @@
                     android:textColor="@color/black"
                     android:textSize="54sp" />
 
-                <Button
-                    android:id="@+id/reloadwidget"
-                    android:layout_width="36dp"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/reload"
-                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/night_temp_widget"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/day_temp_widget"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -62,9 +85,9 @@
 
                 <ImageView
                     android:id="@+id/weather_icon_widget"
-                    android:layout_width="187dp"
-                    android:layout_height="159dp"
-                    android:layout_gravity="center"
+                    android:layout_width="144dp"
+                    android:layout_height="131dp"
+                    android:layout_gravity="left"
                     android:contentDescription="@string/weather_description"
                     android:src="@drawable/cloudy_detail" />
 

@@ -32,11 +32,13 @@
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/bg_members.xml" value="0.128" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/bg_night.xml" value="0.124" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/bg_search.xml" value="0.124" />
+        <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/corner.xml" value="0.1" />
+        <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/goc.xml" value="0.1" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.124" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/img_wt_icon.xml" value="0.124" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/ripple_oval.xml" value="0.135" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/drawable/widget.xml" value="0.124" />
-        <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/activity_details.xml" value="0.2532433834976648" />
+        <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/activity_details.xml" value="0.6" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/activity_disconnect.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/activity_search.xml" value="0.25416666666666665" />
@@ -47,7 +49,7 @@
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/layout_add_city.xml" value="0.16799999999999998" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/samplewidget.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/toolbar.xml" value="0.264" />
-        <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/weather_widget.xml" value="0.4" />
+        <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/weather_widget.xml" value="0.3975409836065574" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/weatherwidget.xml" value="0.17604166666666668" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/weatherwidget_info.xml" value="0.17604166666666668" />
         <entry key="..\:/Users/DELL 5510/AndroidStudioProjects/weather_app/app/src/main/res/layout/widget_provider_info.xml" value="0.25416666666666665" />
